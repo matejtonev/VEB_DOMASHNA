@@ -1,0 +1,474 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Roboto Slab", serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#menuDiv {
+  display: inline-block;
+  background-color: whitesmoke;
+  width: 20%;
+  height: 2025px;
+}
+
+#menuDiv2 {
+  display: inline-block;
+  background-color: whitesmoke;
+  width: 20%;
+  height: 2450px;
+}
+
+#menuDiv3 {
+  display: inline-block;
+  background-color: whitesmoke;
+  width: 20%;
+  height: 937px;
+}
+
+#inputDiv input {
+  width: 80%;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  height: 20px;
+  padding: 15px;
+  margin-left: 5%;
+  margin-top: 8%;
+  margin-bottom: 7%;
+}
+
+#inputDiv input::placeholder {
+  color: lightgray;
+}
+
+#listDiv {
+  margin-top: 10%;
+  margin-bottom: 15%;
+}
+
+#listDiv h3 {
+  width: 28%;
+  margin-bottom: 20%;
+}
+
+#listDiv p {
+  font-size: 14px;
+}
+
+#listDiv p a {
+  text-decoration: none;
+  color: black;
+}
+
+.outerDiv {
+  width: 90%;
+  margin: auto;
+}
+
+.padding-bottom-custom {
+  padding-bottom: 15px;
+}
+
+.border-bottom-pink {
+  border-bottom: 5px solid #f56a6a;
+}
+
+.border-bottom-gray {
+  border-bottom: 2px solid lightgray;
+}
+
+.icon-pink {
+  color: #f56a6a;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+#listDiv ul {
+  list-style-type: none;
+}
+
+#listDiv ul li {
+  margin-bottom: 15px;
+  color: gray;
+}
+
+#listDiv ul li:last-child {
+  margin-bottom: 40px;
+}
+
+#listDiv div p {
+  margin-bottom: 0;
+}
+.f-size-12 {
+  font-size: 12px;
+}
+
+#previewDiv {
+  margin-bottom: 50px;
+}
+
+#previewDiv h3 {
+  width: 58%;
+  margin-bottom: 20%;
+}
+
+#previewDiv img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#previewDiv p {
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgray;
+  padding-bottom: 25px;
+  margin-bottom: 15px;
+}
+
+#previewDiv button {
+  margin-bottom: 40px;
+}
+
+.transparentButton {
+  background-color: transparent;
+  width: 30%;
+  padding: 8px;
+  border: 2px solid #f56a6a;
+  border-radius: 4px;
+  color: #f56a6a;
+}
+
+#inTouchDiv {
+  margin-bottom: 50px;
+}
+
+#inTouchDiv h3 {
+  width: 50%;
+  margin-bottom: 40px;
+}
+
+#inTouchDiv p {
+  line-height: 20px;
+  color: darkgray;
+}
+
+#inTouchDiv p:last-child {
+  display: inline-block;
+  width: 80%;
+}
+
+.dotted-border {
+  border: 1px solid dashed;
+}
+
+#menuDiv div:last-child p {
+  color: darkgray;
+}
+
+#contentDiv {
+  float: right;
+  width: 80%;
+}
+
+#innerContentDiv {
+  width: 88%;
+  margin: 50px auto 0 auto;
+}
+
+#hamburgerMenuIcon {
+  margin-top: 40px;
+  margin-left: 20px;
+  font-size: 25px;
+  color: #f56a6a;
+}
+
+#socialMediaIcons {
+  float: right;
+  margin-top: 15px;
+}
+
+#socialMediaIcons a {
+  font-size: 18px;
+  color: gray;
+}
+#socialMediaIcons a:not(:last-child) {
+  margin-right: 15px;
+}
+
+#editorial {
+  display: inline-block;
+}
+
+#heroBanner {
+  margin-top: 80px;
+  padding-bottom: 80px;
+  border-bottom: 3px solid lightgray;
+  display: flex;
+  align-content: space-between;
+}
+
+#heroBanner h1 {
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+
+#heroBanner div:first-child p {
+  color: gray;
+  margin-bottom: 35px;
+  line-height: 24px;
+}
+
+#heroBanner div:first-child {
+  display: inline-block;
+  width: 45%;
+}
+
+#heroBanner div:nth-child(2) {
+  float: right;
+  width: 50%;
+}
+
+#heroBanner img {
+  max-width: 100%;
+  border-radius: 5px;
+  float: right;
+}
+
+#paragraphBanner {
+  padding: 30px 0;
+  border-bottom: 3px solid lightgray;
+}
+
+#paragraphBanner h2 {
+  width: 15%;
+  margin-bottom: 50px;
+}
+
+#paragraphBanner > div {
+  display: inline-block;
+  width: 50%;
+}
+
+.float-right {
+  float: right;
+}
+
+#paragraphBanner p {
+  line-height: 20px;
+  color: gray;
+  margin-bottom: 50px;
+  padding-right: 40px;
+}
+
+#photosDiv {
+  padding: 30px 0;
+}
+
+#photosDiv h2 {
+  width: 20%;
+  margin-bottom: 50px;
+}
+
+#photosDiv > div {
+  display: inline-block;
+  width: 49%;
+}
+
+#photosDiv img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+#photosDiv p {
+  color: gray;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+
+#topLeft {
+  padding: 0 40px 40px 0;
+  border-right: 1px solid lightgray;
+}
+
+#bottomLeft {
+  padding: 40px 40px 0 0;
+  border-right: 1px solid lightgray;
+}
+
+#topRight {
+  padding: 0 0 40px 40px;
+}
+
+#bottomRight {
+  padding: 40px 0 0 40px;
+  border-top: 1px solid lightgray;
+}
+
+#marginNegativeDiv {
+  margin-left: -4px;
+}
+
+/* GENERIC PAGE STYLES */
+#mainSection {
+  margin-top: 80px;
+  padding-bottom: 20px;
+}
+
+#mainSection h1 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+#heightImage {
+  width: 70%;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+#mainSection p {
+  color: grey;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.secondarySection {
+  border-top: 1px solid grey;
+  padding-top: 20px;
+}
+
+.secondarySection h2 {
+  font-size: 30px;
+}
+
+.secondarySection p {
+  line-height: 28px;
+  color: grey;
+  margin-bottom: 40px;
+}
+
+/* ELEMENTS PAGE STYLES */
+#firstDiv {
+  padding: 50px 0;
+}
+
+#firstDiv h1 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+#firstDiv h2 {
+  font-size: 26px;
+  margin-bottom: 35px;
+}
+
+#firstDiv p {
+  color: grey;
+  line-height: 25px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.padding-right-custom {
+  padding-right: 25px;
+}
+
+#secondDiv {
+  padding: 50px 82px;
+  float: right;
+  width: 80%;
+}
+
+#secondDiv h2 {
+  font-size: 26px;
+}
+
+blockquote {
+  width: 50%;
+  color: grey;
+  line-height: 28px;
+  font-style: italic;
+  padding-left: 50px;
+  border-left: 3px solid lightgray;
+  margin-left: 0px;
+  margin-bottom: 30px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 400px;
+}
+
+table thead th:not(:nth-child(1)) {
+  text-align: left;
+  padding-left: 10px;
+}
+
+table tbody tr td:nth-child(1) {
+  text-align: center;
+}
+
+th {
+  border-bottom: 2px solid lightgray;
+  padding-bottom: 10px;
+}
+
+tbody {
+  color: grey;
+}
+
+table tbody td {
+  padding: 12px;
+}
+
+table tbody tr:nth-child(2n-1) {
+  background-color: rgb(247, 244, 244);
+  border-bottom: 1px solid rgba(199, 199, 199, 0.5);
+}
+
+table tbody tr:last-child td {
+  text-align: right;
+}
+
+#augsburgImg {
+  width: 70%;
+
+  border-radius: 10px;
+}
+
+#secondDiv h1 {
+  font-size: 45px;
+  margin-top: 100px;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.f-size-14 {
+  font-size: 14px;
+}
+
+.d-inline-block h2 {
+  margin-top: 0;
+}
+
+.pink-box {
+  border: 5px solid #f56a6a;
+  padding: 20px 20px;
+  margin: 20px 20px;
+  border-radius: 8px;
+  background-color: #f56a6a82;
+}
